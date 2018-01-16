@@ -40,6 +40,27 @@ angular.module('ui.colorpicker', [])
             "HISTORY": "Recentes",
             "SELECT": "Selecionar",
             "CANCEL": "Cancelar"
+        },
+        "de": {
+            "PALETTE": "Palette",
+            "WHEEL": "Rad",
+            "HISTORY": "Historisch",
+            "SELECT": "Auswählen",
+            "CANCEL": "Bestätigen"
+        },
+        "it": {
+            "PALETTE": "Tavolozza",
+            "WHEEL": "Ruota",
+            "HISTORY": "Storico",
+            "SELECT": "Selezionare",
+            "CANCEL": "Annullare"
+        },
+        "es": {
+            "PALETTE": "Paleta",
+            "WHEEL": "Rueda",
+            "HISTORY": "Histórico",
+            "SELECT": "Seleccionar",
+            "CANCEL": "Anular"
         }
     })
     .factory('colorpicker.helper', ['$document', function($document) {
